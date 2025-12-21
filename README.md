@@ -1,2 +1,27 @@
-# BunnyEra-Console
-BunnyEra Console is the core desktop application of the BunnyEra brand matrix, built with Electron.   It integrates logging, resources, monitoring, and signal modules to provide a unified platform for enterprise automation.
+# 🐇 BunnyEra-Console
+
+BunnyEra Console 是 BunnyEra 品牌矩阵的核心桌面应用，基于 Electron 构建。  
+它整合日志、资源、监控、信号等模块，为企业提供统一的操作平台和自动化工作流。
+
+---
+
+## 🚀 功能模块
+- **日志模块**：本地写入与读取，支持系统化记录。  
+- **资源模块**：接入虚拟卡系统 AgentCardOS。  
+- **监控模块**：系统状态与任务进度监控。  
+- **信号模块**：接入 BunnyEraEchoBot，用于验证码与翻译。  
+- **矩阵账号模块**：支持注册脚本与 API 接入。  
+- **网络推送模块**：支持 webhook 与 API 通信逻辑。  
+
+---
+
+## 📦 安装与运行
+
+### 环境要求
+- Node.js >= 18  
+- npm 或 yarn  
+- Windows / macOS / Linux
+
+### 安装依赖
+```bash
+npm install
